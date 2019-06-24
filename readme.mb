@@ -4,3 +4,19 @@ step 3: Go into project => cd [Name of project]
 step 4: Run project 
     + on ios => react-native run-ios
     + on android => react-native run-android
+step 5: Download android studio to run android apps
+Reference : https://facebook.github.io/react-native/docs/getting-started
+copy project in folder android to android studio and then select a virtual device for this app.
+***
+Error: .tsfile
+- go to extensions tab -> search for @builtin TypeScript and JavaScript Language Features
+=> then click on Disable to fix this problem.
+- Reference: https://stackoverflow.com/questions/48859169/js-types-can-only-be-used-in-a-ts-file-visual-studio-code-using-ts-check
+Error: JAVA_HOME
+- install jdk
+- setting environment: 
+    + create new variable : JAVA_HOME -> point to folder which contains our jdk installed
+    + add variable JAVA_HOME to variable Path such as ";%JAVA_HOME%\bin"
+***
+Project Reference
+https://dev.to/hasurahq/building-ar-apps-in-react-native-powered-by-graphql-using-hasura-h9m
